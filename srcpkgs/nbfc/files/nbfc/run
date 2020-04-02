@@ -1,0 +1,3 @@
+#!/bin/sh
+exec 1>&2
+/opt/nbfc/nbfcservice.sh start || exit 1
